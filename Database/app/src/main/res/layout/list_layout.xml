@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/tvId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvNama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="nama"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvAgama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="agama"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvTelpn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="telpn"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>
